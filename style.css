@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    padding: 0 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    overflow-x: hidden;
+}
+.burger-menu img{
+    width: 18px;
+    height: 18px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.hid-btn{
+    font-size: 18px;
+    width: fit-content;
+    padding: 6px 14px;
+    margin: 10px;
+    border: 2px solid #b7acac;
+    border-radius: 20px;
+    color: rgb(4, 13, 52); 
+    font-weight: 500;
+}
+.hid-btn:hover{
+    background-color:rgb(4, 13, 52);
+    color: #fff;
+}
+.burger-menu{
+    margin-left: 30px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left a{
+    font-weight: 300;
+    font-size: 20px;
+    color:rgb(4, 13, 52);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top{
+    padding-top:100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    flex-direction: column;
+}
+.top .t-top{
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 1px;
+    color:rgb(4, 13, 52) ;
+}
+.t-buttom {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color:rgb(6, 20, 81) ;
+    color: #1c1370;
+}
+.center{
+    padding-top: 20vh;
+    display: flex;
+    width: 56vw;
+    justify-content: center;
+}
+.center form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub{
+    padding: 14px 2vw;
+    color: #fff;
+    background-color: rgb(4, 13, 52);
+}
+.inp{
+    margin-right: 25px;
+    padding: 14px 5vw;
+    color: rgb(4, 13, 52);
+    border: 2px solid rgb(4, 13, 52);
+}
+
+.sub, .inp{
+    border-radius: 26px;
+}
+.buttom{
+    width: 100vw;
+    padding: 0 125px;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    padding: 0 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.cards::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+.cards::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.cards::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.card{
+    min-width: 298px;
+    padding: 24px 18px 12px 18px;
+    width: 298px;
+    height: 285px;
+    background-color: rgb(6, 196, 132);
+    z-index: 30;
+    border-radius: 25px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.nav .left{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: rgb(4, 13, 52);
+}
+.nav .right{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(4, 13, 52);
+}
+.typ{
+    font-family: sans-serif;
+    color: #4f4949;
+}
+.title{
+    margin: 16px 2px;
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(4, 13, 52);
+}
+.description{
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(103, 105, 113);
+    margin: 5px;
+}
+.fotter{
+    height:70px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/* .fotter div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+.time{
+    display: flex;
+    color: #4f4949;
+    
+}
+.price {
+    margin-top: 20px;
+    font-family: sans-serif;
+    display: block;
+    color:rgb(4, 13, 52);
+    font-size: 24px;
+    font-weight: 700;
+}
+footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0 5vw;
+    border-top: 2px solid #e8dede;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+.polciy{
+    display: inline-block;
+    margin: 40px 50px 50px 0;
+    color:rgb(4, 13, 52);
+    font-size: 22px;
+    font-weight: 500;
+}
+.story{
+    display: inline-block;
+    margin: 40px 50px 50px 0;
+    color:rgb(4, 13, 52);
+    font-size: 22px;
+    font-weight: 500;
+}
+footer img{
+    width: 30px; 
+    height: 20px;
+    margin:40px 50px ;
+}
+
+.two{
+background-color: rgb(14, 13, 13);
+color: #fff;
+}
+.three{
+    background-color: rgb(170, 119, 217);
+
+}
+.four{
+   background-color: darkkhaki;
+}
